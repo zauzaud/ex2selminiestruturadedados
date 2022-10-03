@@ -8,7 +8,7 @@ public class Calculadora_PosFixa {  // calculadora
           int arg1, arg2;    
           char c;
           System.out.println("Calculadora notação pos-fixa");
-          System.out.println("   Exemplo de uso:\n   5 9 + 2 * 6 5 * + ");
+          System.out.println("   Exemplo de uso:\n   3 4 + 2 * 3 7 * + ");
           System.out.print("Informe sua expressao:\n   ");
           String s = lerStr();
           for (int i=0; i<s.length(); i++) {
